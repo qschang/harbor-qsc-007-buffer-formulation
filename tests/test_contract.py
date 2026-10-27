@@ -3,7 +3,7 @@ from pathlib import Path
 from unittest.mock import patch
 import pytest
 
-SOL=Path(os.environ.get('APP',str(Path(__file__).parents[1]/'solution'/'solve.py')))
+SOL=Path(os.environ.get('APP','/app/solve.py'))
 def run(inp,out,raw=None):
     src=out.with_name(out.stem+'-input.json')
     src.write_text(raw if raw is not None else json.dumps(inp,allow_nan=True,separators=(',',':')),encoding='utf-8')
@@ -69,5 +69,6 @@ def test_final_replace_failure_rolls_back(tmp_path):
         with pytest.raises(SystemExit) as exc: mod.main(['solve.py',str(src),str(out)])
         assert exc.value.code!=0
     assert out.read_bytes()==b'OLD'; assert not list(tmp_path.glob('.buffer-*')); assert_clean(tmp_path)
+
 
 
