@@ -1,0 +1,19 @@
+[
+  "test_valid_optimal_and_schema",
+  "test_log_ratio_direction",
+  "test_cost_tie_lexicographic",
+  "test_max_volume_boundary",
+  "test_infeasible_reject_absent",
+  "test_infeasible_reject_sentinel",
+  "test_invalid_duplicate_key",
+  "test_duplicate_key_sentinel",
+  "test_nonfinite_reject_sentinel",
+  "test_extra_key_reject_absent",
+  "test_extra_key_reject_sentinel",
+  "test_boolean_numeric_reject",
+  "test_deterministic_bytes",
+  "test_budget_boundary",
+  "test_performance_bound",
+  "test_late_invalid_preserves_old",
+  "test_final_replace_failure_rolls_back"
+]

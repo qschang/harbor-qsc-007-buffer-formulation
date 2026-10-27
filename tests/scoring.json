@@ -1,0 +1,72 @@
+{
+  "tests": {
+    "test_contract.py::test_performance_bound": {
+      "rationale": "公开行为契约的独立行为验证",
+      "weight": 0.0625
+    },
+    "test_contract.py::test_extra_key_reject_absent": {
+      "rationale": "公开行为契约的独立行为验证",
+      "weight": 0.0625
+    },
+    "test_contract.py::test_cost_tie_lexicographic": {
+      "rationale": "公开行为契约的独立行为验证",
+      "weight": 0.0625
+    },
+    "test_contract.py::test_extra_key_reject_sentinel": {
+      "rationale": "公开行为契约的独立行为验证",
+      "weight": 0.0625
+    },
+    "test_contract.py::test_budget_boundary": {
+      "rationale": "公开行为契约的独立行为验证",
+      "weight": 0.0625
+    },
+    "test_contract.py::test_boolean_numeric_reject": {
+      "rationale": "公开行为契约的独立行为验证",
+      "weight": 0.0625
+    },
+    "test_contract.py::test_duplicate_key_sentinel": {
+      "rationale": "公开行为契约的独立行为验证",
+      "weight": 0.0625
+    },
+    "test_contract.py::test_final_replace_failure_rolls_back": {
+      "rationale": "公开行为契约的独立行为验证",
+      "weight": 0.0625
+    },
+    "test_contract.py::test_deterministic_bytes": {
+      "rationale": "公开行为契约的独立行为验证",
+      "weight": 0.0625
+    },
+    "test_contract.py::test_nonfinite_reject_sentinel": {
+      "rationale": "公开行为契约的独立行为验证",
+      "weight": 0.0625
+    },
+    "test_contract.py::test_infeasible_reject_sentinel": {
+      "rationale": "公开行为契约的独立行为验证",
+      "weight": 0.0625
+    },
+    "test_contract.py::test_late_invalid_preserves_old": {
+      "rationale": "公开行为契约的独立行为验证",
+      "weight": 0.0625
+    },
+    "test_contract.py::test_max_volume_boundary": {
+      "rationale": "公开行为契约的独立行为验证",
+      "weight": 0.0625
+    },
+    "test_contract.py::test_infeasible_reject_absent": {
+      "rationale": "公开行为契约的独立行为验证",
+      "weight": 0.0625
+    },
+    "test_contract.py::test_invalid_duplicate_key": {
+      "rationale": "公开行为契约的独立行为验证",
+      "weight": 0.0625
+    },
+    "test_contract.py::test_log_ratio_direction": {
+      "rationale": "公开行为契约的独立行为验证",
+      "weight": 0.0625
+    }
+  },
+  "gate_tests": [
+    "test_contract.py::test_valid_optimal_and_schema"
+  ],
+  "schema_version": 1
+}
